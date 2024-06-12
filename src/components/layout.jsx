@@ -90,7 +90,7 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-           EXAM
+           {/* EXAM */}
           </Typography>
         </Toolbar>
       </AppBar>
