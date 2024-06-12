@@ -1,0 +1,86 @@
+
+  .container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card-header {
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .card-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .card-footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .my-2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  input {
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+  
+    .card-footer {
+      padding: 10px;
+    }
+  }
+  
